@@ -1,0 +1,64 @@
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #FAFAFA;
+  color: #2E2E2E;
+  margin: 0;
+  padding: 0;
+}
+.topbar {
+  background-color: #B76E79;
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+header {
+  background-color: #B76E79;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+nav {
+  background-color: #F7D3DC;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
+}
+nav a {
+  text-decoration: none;
+  color: #2E2E2E;
+  font-weight: bold;
+}
+section {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+footer {
+  background-color: #2E2E2E;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  margin-top: 3rem;
+}
+.profile-pic {
+  max-width: 200px;
+  border-radius: 50%;
+  margin: 1rem auto;
+  display: block;
+}
+.law-image {
+  display: block;
+  margin: 2rem auto;
+  max-height: 100px;
+}
+.practice-image {
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  margin: 1rem auto;
+  border-radius: 10px;
+}
